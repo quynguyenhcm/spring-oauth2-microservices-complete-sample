@@ -1,0 +1,27 @@
+server.context-path=/h2
+
+# database with the users
+#spring.datasource.url=jdbc:h2:file:~/users
+#spring.datasource.username=sa
+#spring.datasource.password=
+#spring.datasource.driver-class-name=org.h2.Driver
+
+# oauth database
+spring.datasource.url=jdbc:h2:file:~/oauth
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+logging.level.org.springframework.web=INFO
+logging.level.org.springframework.security=INFO
+spring.jpa.show-sql=true
+
+
+# H2
+
+spring.h2.console.enabled=true
+
+spring.h2.console.path=/h2
+
+# Datasource
+
